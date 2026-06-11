@@ -1,0 +1,72 @@
+.resume-page {
+  min-height: 100vh;
+  background-color: var(--backgroundColor);
+  padding: 80px 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  animation: fadeInResume 0.8s ease forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInResume {
+  to {
+    opacity: 1;
+  }
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.resume-header h1 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.resume-header h1 span {
+  color: var(--accentColor);
+}
+
+.resume-container {
+  width: 100%;
+  max-width: 1100px;
+  height: 85vh;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.resume-container:hover {
+  border-color: var(--accentColor);
+  box-shadow: 0 20px 40px rgba(194, 164, 255, 0.1);
+}
+
+.resume-container iframe {
+  display: block;
+}
+
+/* Responsive styling */
+@media only screen and (max-width: 768px) {
+  .resume-page {
+    padding: 60px 20px;
+  }
+
+  .resume-header h1 {
+    font-size: 45px;
+  }
+
+  .resume-container {
+    height: 70vh;
+  }
+}
