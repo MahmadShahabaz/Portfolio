@@ -30,7 +30,7 @@ export const config = {
         {
             position: "Diploma in Computer Science & Engineering",
             company: "Government Polytechnic Tumkur",
-            period: "2022 - 2025",
+            period: "2022~2025",
             location: "Tumkur, Karnataka, India",
             description:
                 "Built a strong foundation in computer science, programming, data structures, databases, and software development through hands-on coursework and academic projects",
@@ -50,9 +50,9 @@ export const config = {
             ]
         },
         {
-            position: "B.E.in Computer Science & Engineering",
+            position: "B.E. in Computer Science & Engineering",
             company: "BMS College of Engineering",
-            period: "2025 -2028",
+            period: "2025~2028",
             location: "Bengaluru, Karnataka, India",
             description:
                 "Pursuing a B.E. in Computer Science & Engineering with a focus on software development, data structures, AI, databases, and modern web technologies. Strengthening technical and problem-solving skills through projects, coding, and hands-on development.",
