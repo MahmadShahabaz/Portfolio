@@ -9,6 +9,7 @@ import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
 import HoverLinks from "./HoverLinks";
 import { config } from "../config";
+import { Link } from "react-router-dom";
 
 const SocialIcons = () => {
   useEffect(() => {
@@ -81,18 +82,15 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
-      <a
+      <Link
         className="resume-button"
-        href="/resume/Mahmad_Shahabaz_Resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-cursor="disable"
+        to="/resume"
       >
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
         </span>
-      </a>
+      </Link>
     </div>
   );
 };
