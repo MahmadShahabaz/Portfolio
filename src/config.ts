@@ -28,12 +28,12 @@ export const config = {
 
     experiences: [
         {
-            position: "Software Engineering Intern",
+            position: "Diploma in Computer Science & Engineering",
             company: "Government Polytechnic Tumkur",
-            period: "Jan 2024 - May 2025",
+            period: "2022 - 2025",
             location: "Tumkur, Karnataka, India",
             description:
-                "Worked on AI-integrated security systems, full-stack web applications, and enterprise software solutions.",
+                "Built a strong foundation in computer science, programming, data structures, databases, and software development through hands-on coursework and academic projects",
             responsibilities: [
                 "Designed and developed three complete software projects",
                 "Collaborated with faculty and student teams using Agile methodology",
@@ -50,17 +50,16 @@ export const config = {
             ]
         },
         {
-            position: "Community Outreach Volunteer",
-            company: "InCap Group",
-            period: "Jun 2024 - May 2025",
-            location: "Tumkur, Karnataka, India",
+            position: "B.E.in Computer Science & Engineering",
+            company: "BMS College of Engineering",
+            period: "2025 -2028",
+            location: "Bengaluru, Karnataka, India",
             description:
-                "Led community engagement activities and volunteer initiatives.",
+                "Pursuing a B.E. in Computer Science & Engineering with a focus on software development, data structures, AI, databases, and modern web technologies. Strengthening technical and problem-solving skills through projects, coding, and hands-on development.",
             responsibilities: [
                 "Organized events for 50+ participants",
                 "Designed promotional and marketing materials",
-                "Mentored new volunteers",
-                "Managed stakeholder communications"
+                "Mentored new volunteers"
             ],
             technologies: [
                 "Leadership",
