@@ -38,7 +38,7 @@ export const config = {
                 "Designed and developed three complete software projects",
                 "Collaborated with faculty and student teams using Agile methodology",
                 "Created technical documentation and system architecture diagrams",
-                "Delivered end-to-end software solutions from design to deployment"
+                "Delivered end-to-end software solutions from design and deployment"
             ],
             technologies: [
                 "Python",
